@@ -15,6 +15,7 @@ const ChannelCard = (props) => {
         width: { xs: "356px", md: "320px" },
         height: "326px",
         margin: "auto",
+        marginTop: props.marginTop,
       }}
     >
       <Link to={`/channel/${props.channel?.id?.channelId}`}>
